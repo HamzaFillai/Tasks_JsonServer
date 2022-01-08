@@ -1,0 +1,91 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar
+{
+  background-color: rgb(8, 52, 82);
+  border-bottom: 5px solid rgb(202, 40, 12);
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar > h1 > span
+{
+  color: rgb(202, 40, 12);
+}
+
+.navbar > h1
+{
+  color: aliceblue;
+}
+
+.navbar > nav > ul
+{
+  display: flex;  
+  margin-top: 30px;
+}
+
+.navbar > nav > ul > li
+{
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.navbar > nav > ul > li > a
+{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: large;
+}
+
+.home > .apwd
+{
+  background-image: url("../public/showcase.jpg");
+  height: 60vh;
+  color: aliceblue;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-size: 30px;
+}
+
+.home > .apwd > span 
+{
+  opacity: 0;
+}
+
+.home > .apwd > h1
+{
+  margin-top: 70px;
+}
+
+.home > .subscribe
+{
+  background-color: rgb(8, 52, 82);
+  display: flex;
+  justify-content: space-around;
+}
+
+.home > .subscribe > h4
+{
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.home > .subscribe > p > input
+{
+  font-size: 20px;
+}
+
+.home > .subscribe > p > button
+{
+  background-color: rgb(202, 40, 12);
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+}
